@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 30px 40px;
+    background-color: #1E1E1E;
+    font-family: Inter;
+    font-weight: 200;
+    color: #fff;
+}
+
+.details {
+    margin-bottom: 35px;
+}
+
+#display {
+    width: 35%;
+}
+
+#dropdown {
+    padding: 10px;
+    background-color: #1E1E1E;
+    color: #fff;
+    margin-bottom: 30px;
+    border: 0;
+    outline: 1px solid #fff;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.card p {
+    margin-right: 20px;
+}
+
+#btn,
+#submitBtn {
+    border: none;
+    background-color: #fff;
+    color: #1E1E1E;
+    padding: 10px 50px;
+    border-radius: 0;
+    width: 150px;
+}
+
+#btn {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    display: block;
+    width: 80%;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #1E1E1E;
+    color: #fff;
+    padding: 6px;
+    margin-top: 8px;
+}
+
+label {
+    width: 33%;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.left {
+    float: left;
+}

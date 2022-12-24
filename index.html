@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;700&display=swap');
+    </style>
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body onload="myFunction()">
+    <p class="details">Filter ui cards via their profession.</p>
+    <div>
+        <select name="dropdown" id="dropdown">
+            <option value="" disabled selected>Profession</option>
+            <option value="developer">Developer</option>
+            <option value="admin">Admin</option>
+        </select><br>
+        <div id="display">
+        </div>
+        <button id="btn">Filter</button>
+    </div>
+    <div class="newUser">
+        <p class="details">Add a new user</p>
+        <form>
+            <label class="left">
+                Enter Name
+                <input id="name" type="text" name="name">
+            </label>
+            <label class="left">
+                Enter Profession
+                <input id="profession" type="text" name="profession">
+            </label>
+            <label class="left">
+                Enter Age
+                <input id="age" type="number" name="age">
+            </label>
+            <input id="submitBtn" type="button" value="Add User">
+        </form>
+    </div>
+</body>
+
+</html>
